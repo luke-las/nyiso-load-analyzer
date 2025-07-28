@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>NYISO Load Analyzer</title>
+    <link href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css" rel="stylesheet"/>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .form-row { margin-bottom: 10px; }
+        label { display: inline-block; width: 100px; }
+        select, input { width: 200px; }
+        #chart-container { margin-top: 30px; }
+    </style>
+</head>
+<body>
+
+<h1>NYISO Load Analyzer</h1>
+
+<form id="loadForm" th:action="@{/loadData}" method="post">
+    <div class="form-row">
+        <label for="startDate">Start Date:</label>
+        <input type="text" id="startDate" name="startDate" required />
+    </div>
+    <div class="form-row">
+        <label for="endDate">End Date:</label>
+        <input type="text" id="endDate" name="endDate" required />
+    </div>
+    <div class="form-row">
+        <label for="zone">Zone:</label>
+        <select id="zone" name="zone">
+            <option value="ALL">ALL</option>
+            <option th:each="zone : ${zones}" th:value="${zone}" th:text="${zone}"></option>
+        </select>
+    </div>
+    <button type="submit">Load Data</button>
+</form>
+
+<div id="status"></div>
+
+<div id="chart-container">
+    <!-- Chart will be rendered here -->
+</div>
+
+<script>
+    // Initialize flatpickr date pickers
+    flatpickr("#startDate", { dateFormat: "Y-m-d" });
+    flatpickr("#endDate", { dateFormat: "Y-m-d" });
+
+    // Optional: Add AJAX form submission to load chart dynamically
+    // Can be added later to improve UX
+</script>
+
+</body>
+</html>

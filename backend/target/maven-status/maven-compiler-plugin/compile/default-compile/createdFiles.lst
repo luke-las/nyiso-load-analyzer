@@ -1,0 +1,9 @@
+com\example\DataAnalyzer.class
+com\example\DataPoint.class
+com\example\LoadDataImporter.class
+com\example\Controllers\HomeController.class
+com\example\App.class
+com\example\LoadDataRepository.class
+com\example\ProvisionBase.class
+com\example\Controllers\LoadDataApiController.class
+com\example\AggregatedDataPoint.class

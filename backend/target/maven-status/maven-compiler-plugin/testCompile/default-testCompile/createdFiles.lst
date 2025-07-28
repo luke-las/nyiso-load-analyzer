@@ -1,0 +1,5 @@
+com\example\DataPointTest.class
+com\example\LoadDataImporterTest.class
+com\example\Controllers\LoadDataApiControllerTest.class
+com\example\LoadDataRepositoryTest.class
+com\example\AggregatedDataPointTest.class

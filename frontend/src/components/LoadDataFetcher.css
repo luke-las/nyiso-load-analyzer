@@ -1,0 +1,94 @@
+.load-data-fetcher {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 2rem 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+  color: #222;
+}
+
+.load-data-fetcher label {
+  display: block;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #444;
+}
+
+.load-data-fetcher input[type="date"],
+.load-data-fetcher select {
+  margin-left: 0.5rem;
+  padding: 0.3rem 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.load-data-fetcher input[type="date"]:focus,
+.load-data-fetcher select:focus {
+  border-color: #5c646c;
+  outline: none;
+}
+
+.load-data-fetcher button {
+  margin-top: 1rem;
+  padding: 0.6rem 1.5rem;
+  background-color: rgb(102, 139, 176);
+  color: white;
+  font-weight: 700;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.load-data-fetcher button:disabled {
+  background-color: #9ab8d6;
+  cursor: not-allowed;
+}
+
+.load-data-fetcher button:hover:not(:disabled) {
+  background-color: #6f8091;
+}
+
+.load-data-fetcher p {
+  margin-top: 1rem;
+  font-style: italic;
+  color: #666;
+}
+
+.load-data-fetcher select {
+  min-width: 160px;
+}
+.input-row {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+}
+
+.input-row label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #444;
+  padding: 0.5rem;
+}
+
+.input-row input,
+.input-row select {
+  margin-top: 0.3rem;
+  padding: 0.3rem 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  min-width: 150px;
+    padding: 0.5rem;
+
+}
