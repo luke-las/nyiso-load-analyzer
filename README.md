@@ -47,14 +47,18 @@ Setup Instructions
 4. Import Data
   On backend startup, the app attempts to import data based on provided start and end date arguments. For example:
   mvn spring-boot:run -Dspring-boot.run.arguments="--start=2022-01-01T00:00 --end=2022-12-31T23:59"
+  mvn spring-boot:run -D"spring-boot.run.arguments=--start=2023-07-01T00:00:00 --end=2025-07-01T23:59:59"
+
+
+
   If no dates are provided, import will be skipped. If no data is imported into the DB, then the charts will not load.
 
-5. Backend Setup and Run
+6. Backend Setup and Run
   mvn clean install
   mvn spring-boot:run
   The backend REST API will start at http://localhost:8080.
 
-6. Frontend Setup and Run
+7. Frontend Setup and Run
   Open a new terminal window/tab:
   cd frontend
   npm install
