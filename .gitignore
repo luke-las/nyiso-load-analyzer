@@ -1,0 +1,45 @@
+# Maven build output
+target/
+
+# Compiled class files
+*.class
+
+# Logs
+*.log
+
+# VS Code settings
+.vscode/
+
+# IntelliJ / JetBrains
+.idea/
+*.iml
+*.iws
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment files (optional)
+.env
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# Gradle (if you use it)
+.gradle/
+build/
+
+# Other generated crap
+*.swp
+*.tmp
