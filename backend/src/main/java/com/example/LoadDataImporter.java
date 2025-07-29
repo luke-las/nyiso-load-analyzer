@@ -11,7 +11,8 @@ import org.springframework.stereotype.Component;
 public class LoadDataImporter {
 
     private static final DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MM/dd/yyyy HH:mm:ss");
-    private static final Path basePath = Paths.get("C:\\DEV\\Powershell_scripts\\downloaded_files");
+    private static final Path basePath = Paths.get("..", "scripts", "downloaded_files");
+
 
     public void run() throws Exception {
         // Example: call importDirectory with no dates to skip processing

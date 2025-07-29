@@ -1,5 +1,5 @@
-C:\DEV\nyiso-load-analyzer\src\test\java\com\example\DataPointTest.java
-C:\DEV\nyiso-load-analyzer\src\test\java\com\example\AggregatedDataPointTest.java
-C:\DEV\nyiso-load-analyzer\src\test\java\com\example\Controllers\LoadDataApiControllerTest.java
-C:\DEV\nyiso-load-analyzer\src\test\java\com\example\LoadDataRepositoryTest.java
-C:\DEV\nyiso-load-analyzer\src\test\java\com\example\LoadDataImporterTest.java
+C:\DEV\nyiso-load-analyzer\backend\src\test\java\com\example\LoadDataRepositoryTest.java
+C:\DEV\nyiso-load-analyzer\backend\src\test\java\com\example\LoadDataImporterTest.java
+C:\DEV\nyiso-load-analyzer\backend\src\test\java\com\example\DataPointTest.java
+C:\DEV\nyiso-load-analyzer\backend\src\test\java\com\example\Controllers\LoadDataApiControllerTest.java
+C:\DEV\nyiso-load-analyzer\backend\src\test\java\com\example\AggregatedDataPointTest.java

@@ -34,7 +34,7 @@ public class App {
                 }
 
                 new LoadDataImporter().importDirectory(
-                    Paths.get("C:\\DEV\\Powershell_scripts\\downloaded_files"), startDate, endDate);
+                    Paths.get("..", "scripts", "downloaded_files"), startDate, endDate);
 
                 System.out.println("LoadDataImporter completed successfully.");
             } catch (Exception e) {
