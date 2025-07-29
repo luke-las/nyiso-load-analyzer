@@ -46,7 +46,6 @@ Setup Instructions
 
 4. Import Data
   On backend startup, the app attempts to import data based on provided start and end date arguments. For example:
-  mvn spring-boot:run -Dspring-boot.run.arguments="--start=2022-01-01T00:00 --end=2022-12-31T23:59"
   mvn spring-boot:run -D"spring-boot.run.arguments=--start=2023-07-01T00:00:00 --end=2025-07-01T23:59:59"
 
 
